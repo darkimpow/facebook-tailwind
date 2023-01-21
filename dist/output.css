@@ -591,16 +591,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .font-sans {
