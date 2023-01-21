@@ -4,12 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="grid grid-cols-1 divide-y">
-        <!--top of page with picture embeded-->
-        <div class="h-60 bg-yellow-300">
-          <img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2022/07/social_media_high_five_2124783140.jpg?w=720" alt="high five">
+    <div class="grid grid-cols-2 divide-y">
+      <!--top of page/ back button with favorites heading-->
+      <div class="flex">
+        <a href="index.html">
+          <svg
+            width="30"
+            height="30"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"
+            />
+          </svg>
+        </a>
+      </div>
+      <h1 class="font-bold pr-32">Favorites</h1>
+    </div>
+    <!--Text beneath the header-->
+    <p class="pt-10">Posts from freinds and Pages added to Favorites are Shown higher in your News Feed.<p class="font-bold">Learn How Favorites works.</p></p>
+    <!--Search bar for freinds and pages-->
+    <div class="flex rounded-md w-4/5 pt-6 pr-2">
+        <div class="flex border-2 rounded">
+            <button class="flex items-center justify-center px-4 border-r">
+                <svg class="w-6 h-6 text-gray-600" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                        d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z">
+                    </path>
+                </svg>
+            </button>
+            <input type="text" class="px-4 py-2 w-80" placeholder="Search...">
         </div>
+    </div>
+    <!--4 possible freind accounts-->
+    <div class="flex">
+        <div class="w-2/12 sm:w-1/12 pr-1 pt-5">
+          <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="..." class="shadow rounded-full max-w-full h-auto align-middle border-none" />
+        </div>
+      </div>
   </body>
 </html>
