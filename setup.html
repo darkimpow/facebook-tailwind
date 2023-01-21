@@ -7,7 +7,7 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="grid grid-cols-2 divide-y">
+    <div class="grid grid-cols-1 divide-y">
       <!--top of page/ back button with favorites heading-->
       <div class="flex">
         <a href="index.html">
@@ -29,10 +29,10 @@
           </svg>
         </a>
       </div>
-      <h1 class="font-bold pr-32">Favorites</h1>
+      <h1 class="font-bold text-center">Favorites</h1>
     </div>
     <!--Text beneath the header-->
-    <p class="pt-10">Posts from freinds and Pages added to Favorites are Shown higher in your News Feed.<p class="font-bold">Learn How Favorites works.</p></p>
+    <p class="text-center">Posts from freinds and Pages added to Favorites are Shown higher in your News Feed.<p class=" text-center font-bold">Learn How Favorites works.</p></p>
     <!--Search bar for freinds and pages-->
     <div class="flex rounded-md w-4/5 pt-3 pr-2">
         <div class="flex border-2 rounded">
@@ -142,5 +142,67 @@
       <h2 class="font-bold">Suggested based on Your Activity</h2>
       <p> Posts from these freinds and Pages are already prioritized in your News feed. Adding them prioritizes their posts even more.</p>
     </div>
+
+
+    
+    <!--Freinds and Pages Tab-->
+    
+<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" type="button">
+        <li class="mr-2" role="presentation">
+            <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 id="profile-tab" type="button" >Freinds</button>
+        </li>
+        <li class="mr-2" role="presentation">
+            <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="dashboard-tab"  type="button">Pages</button>
+        </li>
+    </ul>
+</div>
+<!--Profile 1/ Eric Chang-->
+<div id="myTab">
+    <div class="flex items-center pt-0">
+        <div class="relative rounded-full overflow-hidden">
+          <img src="https://media.istockphoto.com/id/534880122/photo/profile-view-of-serious-young-man-over-white-background.jpg?s=612x612&w=0&k=20&c=63XkPnopDT7da-28AuR0Eb3ZWyDvqMJ4JoFmsoeBL_k=" alt="Profile Picture" class="w-12 h-12">
+          <div class="absolute right-0 bottom-0 w-4 h-4 rounded-full">
+            <i class="fas fa-star text-white text-2xl"></i>
+          </div>
+        </div>
+        <div class="ml-4">
+          <h2 class="text-sm font-medium">Eric Chang</h2>
+          <div class="text-sm text-gray-600">More Info</div>
+        </div>
+        <div class="ml-4">
+          <i class="fas fa-ellipsis-v text-2xl"></i>
+        </div>
+        <div class="pl-40">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Add
+                </button>
+        </div>
+      </div>
+
+      <!--Profile 2/ Jasper's Market-->
+<div id="myTab">
+    <div class="flex items-center pt-5">
+        <div class="relative rounded-full overflow-hidden">
+          <img src="https://i.ytimg.com/vi/KNcFITNGdHU/maxresdefault.jpg" alt="Profile Picture" class="w-12 h-12">
+          <div class="absolute right-0 bottom-0 w-4 h-4 rounded-full">
+            <i class="fas fa-star text-white text-2xl"></i>
+          </div>
+        </div>
+        <div class="ml-4">
+          <h2 class="text-sm font-medium">Eric Chang</h2>
+          <div class="text-sm text-gray-600">More Info</div>
+        </div>
+        <div class="ml-4">
+          <i class="fas fa-ellipsis-v text-2xl"></i>
+        </div>
+        <div class="pl-40">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Add
+                </button>
+        </div>
+      </div>
+   
+
   </body>
 </html>
