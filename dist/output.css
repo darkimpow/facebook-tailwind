@@ -981,6 +981,14 @@ video {
   padding-left: 11rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .align-middle {
   vertical-align: middle;
 }
